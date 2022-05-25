@@ -41,6 +41,7 @@ func main() {
 
 }
 
+// Cetting an authentication error 32
 func getClient(creds *Credentials) (*twitter.Client, error) {
 
 	config := oauth1.NewConfig(creds.ConsumerKey, creds.ConsumerSecret)
