@@ -1,2 +1,2 @@
-token.ENV
-.ENV
+*.ENV
+
